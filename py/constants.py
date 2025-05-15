@@ -2,7 +2,7 @@ from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButt
 
 main_keyboard = ReplyKeyboardMarkup(
     keyboard=[[KeyboardButton(text='Добавить трату'), KeyboardButton(text='Получить отчет')],
-               [KeyboardButton(text='Настройки'), KeyboardButton(text='Последние 3 траты')]], resize_keyboard=True,
+              [KeyboardButton(text='Настройки'), KeyboardButton(text='Последние 3 траты')]], resize_keyboard=True,
     one_time_keyboard=True)
 
 cancel_keyboard = ReplyKeyboardMarkup(
